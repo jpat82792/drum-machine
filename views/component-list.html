@@ -2,11 +2,16 @@
 <html>
   <head>
     <link href="stylesheets/knob.less.css" rel="stylesheet"/>
-    <script src="javascripts/knob-controller.js" rel="javascript"/>
+    <script src="javascripts/ext/domready.js"></script>
+    <script src="javascripts/knob-controller.js"></script>
   </head>
   <body>
     <h1>Component layout</h1>
     <h3>Knob</h3>
+    <select>
+      <option value="opt1">opt1</option>
+      <option value="opt2">opt2</option>
+    </select>
     <% include knob.html  %>
     <% include slider.html %>
   </body>
